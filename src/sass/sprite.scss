@@ -1,0 +1,200 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$s-icon-bank-card-name: 's-icon-bank-card';
+$s-icon-bank-card-x: 0px;
+$s-icon-bank-card-y: 0px;
+$s-icon-bank-card-offset-x: 0px;
+$s-icon-bank-card-offset-y: 0px;
+$s-icon-bank-card-width: 40px;
+$s-icon-bank-card-height: 40px;
+$s-icon-bank-card-total-width: 56px;
+$s-icon-bank-card-total-height: 552px;
+$s-icon-bank-card-image: '../assets/img/sprite.png';
+$s-icon-bank-card: (0px, 0px, 0px, 0px, 40px, 40px, 56px, 552px, '../assets/img/sprite.png', 's-icon-bank-card', );
+$s-icon-yue-name: 's-icon-yue';
+$s-icon-yue-x: 0px;
+$s-icon-yue-y: 40px;
+$s-icon-yue-offset-x: 0px;
+$s-icon-yue-offset-y: -40px;
+$s-icon-yue-width: 40px;
+$s-icon-yue-height: 40px;
+$s-icon-yue-total-width: 56px;
+$s-icon-yue-total-height: 552px;
+$s-icon-yue-image: '../assets/img/sprite.png';
+$s-icon-yue: (0px, 40px, 0px, -40px, 40px, 40px, 56px, 552px, '../assets/img/sprite.png', 's-icon-yue', );
+$s-icon-tixianjilu-name: 's-icon-tixianjilu';
+$s-icon-tixianjilu-x: 0px;
+$s-icon-tixianjilu-y: 80px;
+$s-icon-tixianjilu-offset-x: 0px;
+$s-icon-tixianjilu-offset-y: -80px;
+$s-icon-tixianjilu-width: 40px;
+$s-icon-tixianjilu-height: 40px;
+$s-icon-tixianjilu-total-width: 56px;
+$s-icon-tixianjilu-total-height: 552px;
+$s-icon-tixianjilu-image: '../assets/img/sprite.png';
+$s-icon-tixianjilu: (0px, 80px, 0px, -80px, 40px, 40px, 56px, 552px, '../assets/img/sprite.png', 's-icon-tixianjilu', );
+$s-icon-identity-card-name: 's-icon-identity-card';
+$s-icon-identity-card-x: 0px;
+$s-icon-identity-card-y: 120px;
+$s-icon-identity-card-offset-x: 0px;
+$s-icon-identity-card-offset-y: -120px;
+$s-icon-identity-card-width: 40px;
+$s-icon-identity-card-height: 40px;
+$s-icon-identity-card-total-width: 56px;
+$s-icon-identity-card-total-height: 552px;
+$s-icon-identity-card-image: '../assets/img/sprite.png';
+$s-icon-identity-card: (0px, 120px, 0px, -120px, 40px, 40px, 56px, 552px, '../assets/img/sprite.png', 's-icon-identity-card', );
+$s-icon-cooperation-name: 's-icon-cooperation';
+$s-icon-cooperation-x: 0px;
+$s-icon-cooperation-y: 160px;
+$s-icon-cooperation-offset-x: 0px;
+$s-icon-cooperation-offset-y: -160px;
+$s-icon-cooperation-width: 56px;
+$s-icon-cooperation-height: 56px;
+$s-icon-cooperation-total-width: 56px;
+$s-icon-cooperation-total-height: 552px;
+$s-icon-cooperation-image: '../assets/img/sprite.png';
+$s-icon-cooperation: (0px, 160px, 0px, -160px, 56px, 56px, 56px, 552px, '../assets/img/sprite.png', 's-icon-cooperation', );
+$s-icon-calculator-name: 's-icon-calculator';
+$s-icon-calculator-x: 0px;
+$s-icon-calculator-y: 216px;
+$s-icon-calculator-offset-x: 0px;
+$s-icon-calculator-offset-y: -216px;
+$s-icon-calculator-width: 56px;
+$s-icon-calculator-height: 56px;
+$s-icon-calculator-total-width: 56px;
+$s-icon-calculator-total-height: 552px;
+$s-icon-calculator-image: '../assets/img/sprite.png';
+$s-icon-calculator: (0px, 216px, 0px, -216px, 56px, 56px, 56px, 552px, '../assets/img/sprite.png', 's-icon-calculator', );
+$s-icon-computer-name: 's-icon-computer';
+$s-icon-computer-x: 0px;
+$s-icon-computer-y: 272px;
+$s-icon-computer-offset-x: 0px;
+$s-icon-computer-offset-y: -272px;
+$s-icon-computer-width: 56px;
+$s-icon-computer-height: 56px;
+$s-icon-computer-total-width: 56px;
+$s-icon-computer-total-height: 552px;
+$s-icon-computer-image: '../assets/img/sprite.png';
+$s-icon-computer: (0px, 272px, 0px, -272px, 56px, 56px, 56px, 552px, '../assets/img/sprite.png', 's-icon-computer', );
+$s-icon-money-name: 's-icon-money';
+$s-icon-money-x: 0px;
+$s-icon-money-y: 328px;
+$s-icon-money-offset-x: 0px;
+$s-icon-money-offset-y: -328px;
+$s-icon-money-width: 56px;
+$s-icon-money-height: 56px;
+$s-icon-money-total-width: 56px;
+$s-icon-money-total-height: 552px;
+$s-icon-money-image: '../assets/img/sprite.png';
+$s-icon-money: (0px, 328px, 0px, -328px, 56px, 56px, 56px, 552px, '../assets/img/sprite.png', 's-icon-money', );
+$s-icon-phone-name: 's-icon-phone';
+$s-icon-phone-x: 0px;
+$s-icon-phone-y: 384px;
+$s-icon-phone-offset-x: 0px;
+$s-icon-phone-offset-y: -384px;
+$s-icon-phone-width: 56px;
+$s-icon-phone-height: 56px;
+$s-icon-phone-total-width: 56px;
+$s-icon-phone-total-height: 552px;
+$s-icon-phone-image: '../assets/img/sprite.png';
+$s-icon-phone: (0px, 384px, 0px, -384px, 56px, 56px, 56px, 552px, '../assets/img/sprite.png', 's-icon-phone', );
+$s-icon-cards-name: 's-icon-cards';
+$s-icon-cards-x: 0px;
+$s-icon-cards-y: 440px;
+$s-icon-cards-offset-x: 0px;
+$s-icon-cards-offset-y: -440px;
+$s-icon-cards-width: 56px;
+$s-icon-cards-height: 56px;
+$s-icon-cards-total-width: 56px;
+$s-icon-cards-total-height: 552px;
+$s-icon-cards-image: '../assets/img/sprite.png';
+$s-icon-cards: (0px, 440px, 0px, -440px, 56px, 56px, 56px, 552px, '../assets/img/sprite.png', 's-icon-cards', );
+$s-icon-house-name: 's-icon-house';
+$s-icon-house-x: 0px;
+$s-icon-house-y: 496px;
+$s-icon-house-offset-x: 0px;
+$s-icon-house-offset-y: -496px;
+$s-icon-house-width: 56px;
+$s-icon-house-height: 56px;
+$s-icon-house-total-width: 56px;
+$s-icon-house-total-height: 552px;
+$s-icon-house-image: '../assets/img/sprite.png';
+$s-icon-house: (0px, 496px, 0px, -496px, 56px, 56px, 56px, 552px, '../assets/img/sprite.png', 's-icon-house', );
+$spritesheet-width: 56px;
+$spritesheet-height: 552px;
+$spritesheet-image: '../assets/img/sprite.png';
+$spritesheet-sprites: ($s-icon-bank-card, $s-icon-yue, $s-icon-tixianjilu, $s-icon-identity-card, $s-icon-cooperation, $s-icon-calculator, $s-icon-computer, $s-icon-money, $s-icon-phone, $s-icon-cards, $s-icon-house, );
+$spritesheet: (56px, 552px, '../assets/img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
