@@ -1,0 +1,205 @@
+@import "variables";
+//表格中样式
+$red: #ed052b;
+$green: #059647;
+$orange: #ed9c46;
+.spread-circle {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+    &.red{
+        background-color: $red;
+        box-shadow: 0 0 5px 2px rgba(237, 5, 43, .4);
+    }
+    &.green{
+        background-color: $green;
+        box-shadow: 0 0 5px 2px rgba(5, 150, 71, .4);
+    }
+    &.orange{
+        background-color: $orange;
+        box-shadow: 0 0 5px 2px rgba(237, 156, 70, .4);
+    }
+}
+.table-tag{
+    position: relative;
+    line-height: 20px;
+    padding-left: 2px;
+    padding-right: 6px;
+    display: inline-block;
+    border: 1px solid #d6d6d6;
+    background-color: #fcf3e5;
+    &:before, &:after{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: -1px;
+        border-top: 11px solid transparent;
+        border-bottom: 11px solid transparent;
+    }
+    &:before{
+        left: -11px;
+        border-right: 10px solid #d6d6d6;
+    }
+    &:after{
+        left: -10px;
+        border-right: 10px solid #fcf3e5;
+    }
+}
+//layer
+body{
+    .vl-notify.vl-notify-main{
+        border-radius: 4px;
+    }
+    .vl-notify.vl-notify-alert h2.vl-notice-title{
+        border-bottom: 1px solid #c9d8d1;
+        color: #333;
+        background-color: #dff0e8;
+    }
+    .vl-notify-mask{
+        background-color: rgba(0,0,0,.4);
+        opacity: 1;
+    }
+}
+
+//
+.no-padding-main{
+    margin: $gutter / -2 !important;
+}
+@media (min-width: $screen-xs-min) {
+    .no-padding-main{
+        margin: $gutter * -1 !important;
+    }
+}
+
+//下拉框
+.multiselect{
+    min-height: 32px;
+    font-size: 14px;
+    color: $text;
+}
+.multiselect__select{
+    height: 30px;
+}
+.multiselect__tags{
+    min-height: 32px;
+    padding: 6px 40px 5px 8px;
+    border-color: #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    border-radius: 50px;
+
+}
+.multiselect--active:not(.multiselect--above) .multiselect__tags{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.multiselect__single{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.multiselect__content-wrapper{
+    border-radius: 13px;
+}
+.multiselect__option--highlight{
+    background-color: $theme-color;
+}
+.multiselect__option--selected.multiselect__option--highlight,
+.multiselect__option--selected{
+    background-color: transparent;
+    font-weight: bold;
+    color: $text;
+}
+
+//panel
+.panel{
+    box-shadow: none;
+}
+.panel-head{
+    p{
+        position: relative;
+        padding-left: 10px;
+        font-weight: bold;
+        color: $text-dark;
+        &:before{
+            content: '';
+            position: absolute;
+            margin-left: -10px;
+            margin-top: 2px;
+            width: 3px;
+            height: 14px;
+            border-radius: 2px;
+            background-color: #5a758b;
+        }
+    }
+}
+
+//表单
+.base-setting-form{
+    margin: 0 40px;
+    background-color: #f7f7f7;
+    >form{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .form-group{
+        margin-left: 0;
+        margin-right: 0;
+        label{
+            float: left;
+            padding-top: 7px;
+            font-weight: initial;
+            color: $text-light;
+        }
+        .input-box, .input-box-group{
+            float: left;
+        }
+        //.input-box-group{
+        //    display: flex;
+        //}
+        .form-control{
+            height: 32px;
+            border-radius: 32px;
+        }
+    }
+    .btn-row{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        .btn+.btn{
+            margin-left: 15px;
+        }
+    }
+}
+.base-setting-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 9px rgba(206, 209, 207, .35);
+    .info-box{
+        display: flex;
+        .info{
+            p{
+                padding-top: 20px;
+                margin-bottom: 30px;
+                font-size: 18px;
+                color: #666;
+                small{
+                    font-size: 12px;
+                }
+            }
+            strong{
+                font-size: 20px;
+                color: #5a758b;
+            }
+        }
+    }
+}
+
